@@ -19,7 +19,6 @@
  }
  
  .line line {
-
    animation: line-steps 3s 1s reverse linear infinite;
  }
  

@@ -1,6 +1,3 @@
-
-
-
 .score-board{
     font-family: 'CovesLight';
     display: flex;
@@ -16,8 +13,6 @@
     font-size: 5vmin;
     color: var(--text-cl);
 }
-
-
 
 .icon-x {
     font-size: 5vmin;
@@ -38,8 +33,3 @@
     stroke-opacity: .65;
     margin: 0 0.4em 
 }
-
-
-
-
-

@@ -1,35 +1,31 @@
 .button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    /* border: solid 1px rgb(255, 0, 0); */
-    width: 18vh;
-    height: 18vh;
-    max-width: 24vmin;
-    max-height: 24vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 18vh;
+  height: 18vh;
+  max-width: 24vmin;
+  max-height: 24vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
+
 .button:active {
-    background-color:transparent;
+  background-color:transparent;
 }
-/* button:active {
-    background-color:#eee;
-} */
 
 .player1 {
-    font-size: 20vmin;
-    color: var(--player-cl);
-    stroke: var(--player-cl);
-    stroke-width: 5.0;
-    fill-opacity: 0;
-    stroke-opacity: .65;
-    max-width: 75%;
-    max-height: 75%;
-    animation: fill-in 0.3s 0.5s forwards;
+  font-size: 20vmin;
+  color: var(--player-cl);
+  stroke: var(--player-cl);
+  stroke-width: 5.0;
+  fill-opacity: 0;
+  stroke-opacity: .65;
+  max-width: 75%;
+  max-height: 75%;
+  animation: fill-in 0.3s 0.5s forwards;
 }
 
 .player2 {

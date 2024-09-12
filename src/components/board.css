@@ -1,7 +1,3 @@
-/* .game-screen{
-    display: flex;
-} */
-
 .board {
     position:relative;
     background-color: transparent;
@@ -23,19 +19,13 @@ main {
     position:relative;
     height: 100%;
     background-color: transparent;
-    
-    
 }
 
 .game {
     display: flex;
     align-items: center;
     height: 100%;
-
 }
-
-
-
 
 .size {
     z-index: 2;

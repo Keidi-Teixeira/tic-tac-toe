@@ -7,9 +7,6 @@
     --button-bg: #e8e8e8;
 }
 
- 
-
-
 @font-face {
     font-family: 'CovesBold';
     src: url('../../assets/CovesBold.otf');
@@ -19,14 +16,6 @@
     font-family: 'CovesLight';
     src: url('../../assets/CovesLight.otf');
 }
-
-/* .title {
-    font-family: 'CovesBold';
-} */
-
-
-
-
 
 .body{
     display:grid;
@@ -45,4 +34,3 @@ select,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-

@@ -38,15 +38,14 @@ const changeTheme = (e) =>{
 
     if(e.target.checked){
         changeColors(styleDark)
-    }else{
+    }
+    else{
         changeColors(styleLight)
     }
-
 }
 
 
 const playAgain = (props) => {
-
     if (props.endGame) {
         return (
             <div className="grow">
@@ -58,8 +57,6 @@ const playAgain = (props) => {
     } else {
         return ''
     }
-
-
 }
 
 const showMenu = () => {
@@ -83,7 +80,8 @@ const showMenu = () => {
         menuItems.style.WebkitAnimation = 'menu-items-animation .2s 1.5s ease-in-out forwards'
         
         toggleMenu = false
-    }else {
+    }
+    else {
         hamburgerBar1.classList.add('hamburger-bar-1-animation-end')
         hamburgerBar1.style.WebkitAnimation = 'bar-1-reverse 1.5s .2s ease-in-out forwards'
         
@@ -96,10 +94,8 @@ const showMenu = () => {
         menuItems.classList.add('menuItems-animation-end')
         menuItems.style.WebkitAnimation = 'menu-items-animation-reverse .2s ease-in-out forwards'
 
-        
         toggleMenu = true
     }
-    
 }
 
 const resetGame = (props) =>{
@@ -139,8 +135,6 @@ const darkMode = (props) =>{
     )
 }
 
-
-
 const hamburgerMenu = (props) =>{
     return(
         <div className="hamburger-menu">   
@@ -159,8 +153,6 @@ const hamburgerMenu = (props) =>{
     </div>
     )
 }
-
-
 
 export default props => {
 
